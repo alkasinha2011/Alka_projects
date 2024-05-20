@@ -1,0 +1,27 @@
+Project Description: Predicting the Number of Bikes Sold in a Month
+
+Objective: Develop a machine learning model to predict the number of bikes sold in a month based on various features such as advertising budget, price of bikes, seasonal factors, 
+and other relevant variables.
+
+Steps:
+1. Data Collection: Gather historical sales data, advertising expenditure, bike prices, and other relevant features over several months.  First, we import the necessary libraries and load
+our dataset. Libraries: numpy: For numerical operations, pandas: For data manipulation and analysis, sklearn: For machine learning tools.
+
+2. Data Preprocessing: Clean the data, remove duplicates, ensure consistancy in data format, handle missing values, and perform feature engineering. We select the relevant columns
+(features) from our dataset that will help us predict bike sales. In this case, we choose 'Advertising', 'Price', and 'Season'.
+
+3. Feature Scaling: Normalize the features to ensure they are on a comparable scale. We scale the features so they are on a similar scale. This helps the model learn better.
+   We use StandardScaler to transform the features to have a mean of 0 and a standard deviation of 1.
+
+4. Generate Polynomial Features: We create new features that are combinations of the original features up to a specified degree (in this case, degree 2). This helps the model capture 
+non-linear relationships in the data.
+
+5. Modeling: Implement multiple linear regression.
+
+6. Extend to polynomial regression to capture non-linear relationships.
+
+7. Optimization: Use gradient descent with vectorization to optimize the model parameters.
+
+8. Evaluation: Evaluate the model’s performance using appropriate metrics and validate its predictive power.
+
+9. Deployment: Deploy the model for predicting future bike sales
