@@ -1,0 +1,14 @@
+Advertising        Price  Season  Bikes_Sold
+0   271.990584  1702.862113       2          25
+1   763.086111  1573.248552       0         124
+2   724.453179  1643.912571       0         172
+3    65.496365   697.454689       2         123
+4   794.393177   619.303880       2          45
+Advertising    0
+Price          0
+Season         0
+Bikes_Sold     0
+dtype: int64
+Root Mean Squared Error (RMSE): 53.5345710765422
+
+Predicted number of bikes sold: [110.35721208]
