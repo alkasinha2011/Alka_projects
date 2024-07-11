@@ -1,1 +1,27 @@
+Project Description: Supermarket Sales Data Analysis
+We will perform Exploratory Data Analysis (EDA) on a supermarket sales dataset to uncover insights and patterns. Our tasks include:
+
+Task 1: Initial Data Exploration
+Load and inspect the dataset.
+View sample rows.
+
+Task 2: Univariate Analysis
+Summarize data with statistics.
+Visualize data distribution.
+Identify outliers.
+
+Task 3: Bivariate Analysis
+Create visualizations to explore relationships between variables.
+Analyze interactions between categorical and numerical data.
+Identify patterns and trends.
+
+Task 4: Handle Duplicates and Missing Values
+Remove duplicate rows.
+Identify and handle missing values.
+
+Task 5: Correlation Analysis
+Calculate and visualize correlations between variables.
+Identify strong correlations for insights.
+
+This project will provide a thorough understanding of the supermarket sales data to make informed decisions.
 
