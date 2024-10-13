@@ -1,0 +1,11 @@
+#train: /home/jupyter/car-damage-detection-data/training
+#val: /home/jupyter/car-damage-detection-data/validation
+
+#nc: 2
+#names: ['00-damage', '01-whole']
+train: /home/jupyter/car-damage-detection-data/carimages/train/images
+val: /home/jupyter/car-damage-detection-data/carimages/valid/images
+test: /home/jupyter/car-damage-detection-data/carimages/test/images
+
+nc: 1
+names: ['car']
